@@ -1,0 +1,2295 @@
+@charset "UTF-8";
+html {
+  font-size: 100%;
+}
+
+@font-face {
+  font-family: 'bebas kai';
+  src: url("../fonts/BebasNeue Regular.otf") format("opentype");
+  font-family: たぬき油性マジック;
+  src: url("https://cdn.leafscape.be/TanukiMagic/TanukiMagic_web.woff2") format("woff2");
+}
+
+body {
+  font-family: "Hiragino Kaku Gothic ProN";
+  color: #000;
+  line-height: 1.7;
+  background-color: #fff;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+/*-------------------------------------------
+ヘッダー
+-------------------------------------------*/
+.top-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 50px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+.top-header .header-sns-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+}
+
+.top-header .header-sns-area li {
+  margin-left: 20px;
+}
+
+.top-header .header-sns-area li a:hover {
+  color: #6B584C;
+  opacity: 0.7;
+}
+
+.top-header .header-sns-area li img {
+  width: 25px;
+}
+
+.top-header .top-header-title {
+  font-size: 14px;
+  margin-top: 20px;
+  color: #02009D;
+}
+
+.header-second {
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-second .mif-header-logo {
+  width: 200px;
+}
+
+.header-second .mif-header-logo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.header-second ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  list-style: none;
+}
+
+.header-second li:not(:last-child) {
+  margin-right: 50px;
+}
+
+.header-second li a {
+  color: #000;
+}
+
+.header-second li a:hover {
+  color: #02009D;
+  opacity: 0.7;
+}
+
+/*-------------------------------------------
+メインビジュアル
+-------------------------------------------*/
+#mainvisual-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 400px;
+  margin-bottom: 150px;
+}
+
+#mainvisual-area .mainvisual-right {
+  width: 60%;
+  padding-left: 2%;
+  padding-right: 2%;
+  background: url(../img/home-maine.WebP);
+  background-size: cover;
+  height: 100%;
+}
+
+#mainvisual-area .mainvisual-left {
+  padding-left: 5%;
+  padding-right: 10px;
+}
+
+#mainvisual-area .mainvisual-left h1 {
+  font-size: 50px;
+  color: #02009D;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+#mainvisual-area .mainvisual-left p {
+  font-weight: bold;
+  margin-top: 80px;
+}
+
+/*-------------------------------------------
+メインビジュアル （会社案内ページ）
+-------------------------------------------*/
+#mainvisual-about-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 400px;
+  margin-bottom: 150px;
+}
+
+#mainvisual-about-area .mainvisual-right {
+  width: 60%;
+  padding-left: 2%;
+  padding-right: 2%;
+  background: url(../img/aboutus-main.WebP);
+  background-size: cover;
+  height: 100%;
+}
+
+#mainvisual-about-area .mainvisual-left {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 130px;
+}
+
+#mainvisual-about-area .mainvisual-left h1 {
+  font-size: 82px;
+  color: #02009D;
+  font-weight: bold;
+  line-height: 1.5;
+  font-family: 'bebas kai';
+}
+
+/*-------------------------------------------
+メインビジュアル （ホームページ制作ページ）
+-------------------------------------------*/
+#mainvisual-service-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 400px;
+  margin-bottom: 150px;
+}
+
+#mainvisual-service-area .mainvisual-right {
+  width: 60%;
+  padding-left: 2%;
+  padding-right: 2%;
+  background: url(../img/service-main.WebP);
+  background-size: cover;
+  height: 100%;
+}
+
+#mainvisual-service-area .mainvisual-left {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 130px;
+}
+
+#mainvisual-service-area .mainvisual-left h1 {
+  font-size: 82px;
+  color: #02009D;
+  font-weight: bold;
+  line-height: 1.5;
+  font-family: 'bebas kai';
+}
+
+/*-------------------------------------------
+メインビジュアル （お問い合わせ）
+-------------------------------------------*/
+#mainvisual-contact-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 400px;
+  margin-bottom: 150px;
+}
+
+#mainvisual-contact-area .mainvisual-right {
+  width: 60%;
+  padding-left: 2%;
+  padding-right: 2%;
+  background: url(../img/contact-maine.WebP);
+  background-size: cover;
+  height: 100%;
+  margin-top: 60px;
+}
+
+#mainvisual-contact-area .mainvisual-left {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 190px;
+}
+
+#mainvisual-contact-area .mainvisual-left h1 {
+  font-size: 82px;
+  color: #02009D;
+  font-weight: bold;
+  line-height: 1.5;
+  font-family: 'bebas kai';
+}
+
+/*-------------------------------------------
+メインビジュアル （個人情報の取扱い）
+-------------------------------------------*/
+#mainvisual-privacy-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 400px;
+  margin-bottom: 150px;
+}
+
+#mainvisual-privacy-area .mainvisual-right {
+  width: 60%;
+  padding-left: 2%;
+  padding-right: 2%;
+  background: url(../img/contact-maine.WebP);
+  background-size: cover;
+  height: 100%;
+  margin-top: 60px;
+}
+
+#mainvisual-privacy-area .mainvisual-left {
+  padding-left: 10%;
+  padding-top: 150px;
+}
+
+#mainvisual-privacy-area .mainvisual-left h1 {
+  font-size: 82px;
+  color: #02009D;
+  font-weight: bold;
+  line-height: 1.2;
+  font-family: 'bebas kai';
+}
+
+/*-------------------------------------------
+ABOUT USエリア 
+-------------------------------------------*/
+#aboutus-area {
+  background-color: #F1F1F1;
+  position: relative;
+  padding: 178px 0 0;
+}
+
+#aboutus-area .section-title {
+  position: absolute;
+  top: calc((100vw / 290) * -15);
+  left: 0;
+  width: 100%;
+  text-align: center;
+  margin-bottom: calc((100vw / 320) * 40);
+}
+
+#aboutus-area .section-title h2 {
+  font-family: 'bebas kai';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 64px;
+  margin-bottom: calc((100vw / 400) * 6);
+  color: #02009D;
+}
+
+#aboutus-area .section-title h3 {
+  font-size: 16px;
+  line-height: 0;
+}
+
+#aboutus-area .abiutus-box {
+  background-color: #fff;
+  margin: 0 15%;
+}
+
+#aboutus-area .abiutus-box p {
+  line-height: 1.7;
+  padding: 15px;
+}
+
+#aboutus-area .aboutus-img-area ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 60px;
+}
+
+#aboutus-area .aboutus-img-area ul li {
+  width: 30%;
+}
+
+/*-------------------------------------------
+斜線
+-------------------------------------------*/
+.boder {
+  padding: 0 3em 20px;
+  margin: 0 auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-image: repeating-linear-gradient(-45deg, #02009D 0px, #02009D 2px, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%);
+  background-size: 8px 8px;
+  background-repeat: repeat-x;
+  background-position: center bottom;
+}
+
+/*-------------------------------------------
+SERVICEエリア
+-------------------------------------------*/
+#service-area {
+  padding: 60px 0 190px 0;
+}
+
+#service-area .section-title {
+  text-align: center;
+}
+
+#service-area .section-title h2 {
+  font-family: 'bebas kai';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 64px;
+  color: #02009D;
+}
+
+#service-area .section-title h3 {
+  font-size: 16px;
+  line-height: 0;
+  margin-top: 10px;
+}
+
+#service-area .service-coment {
+  margin-top: 50px;
+  padding: 0 15%;
+}
+
+#service-area .service-coment p {
+  line-height: 1.7;
+}
+
+#service-area .service-img-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  margin-top: 60px;
+  padding: 0 5%;
+}
+
+#service-area .service-img-area .service-item {
+  width: 30%;
+}
+
+#service-area .service-img-area .service-item h3 {
+  font-weight: bold;
+}
+
+#service-area .service-img-area .service-item h4 {
+  font-size: 14px;
+}
+
+#service-area .service-img-area02 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 15%;
+  text-align: center;
+  margin-top: 60px;
+}
+
+#service-area .service-img-area02 .service-item {
+  width: 30%;
+}
+
+#service-area .service-img-area02 .service-item h3 {
+  font-weight: bold;
+}
+
+#service-area .service-img-area02 .service-item h4 {
+  font-size: 14px;
+}
+
+#service-area .service-img-area02 .service-item01 {
+  width: 50%;
+}
+
+#service-area .service-img-area02 .service-item01 img {
+  width: 200px;
+}
+
+#service-area .service-img-area02 .service-item02 {
+  width: 50%;
+}
+
+#service-area .service-img-area02 .service-item02 img {
+  width: 200px;
+}
+
+#service-area .service-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 120px;
+}
+
+#service-area .service-btn a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 10px;
+  width: 260px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  background-color: #02009D;
+  border-radius: 10px;
+  font-family: 'bebas kai';
+}
+
+#service-area .service-btn a:hover {
+  color: #fff;
+  opacity: 0.7;
+}
+
+/*-------------------------------------------
+WORKSエリア
+-------------------------------------------*/
+#service-area01 {
+  padding: 60px 5% 190px 5%;
+  background-color: #F1F1F1;
+}
+
+#service-area01 .section-title {
+  text-align: center;
+}
+
+#service-area01 .section-title h2 {
+  font-family: 'bebas kai';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 64px;
+  color: #02009D;
+}
+
+#service-area01 .section-title h3 {
+  font-size: 16px;
+  line-height: 0;
+  margin-top: 10px;
+}
+
+.service-coment {
+  margin-top: 100px;
+}
+
+.service-coment .works-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.service-coment .works-area .works-area01 {
+  padding-bottom: 20px;
+  margin-top: 20px;
+  padding: 0 20px;
+}
+
+.timeline-Footer {
+  display: none;
+}
+
+/*-------------------------------------------
+CONTACTエリア
+-------------------------------------------*/
+#contact-area {
+  background-color: #000;
+  border-bottom: 1px #fff solid;
+  padding-bottom: 100px;
+}
+
+#contact-area .footer-logo {
+  text-align: center;
+  padding-top: 40px;
+}
+
+#contact-area .footer-logo img {
+  width: 120px;
+}
+
+#contact-area .section-title {
+  text-align: center;
+  margin-top: 40px;
+}
+
+#contact-area .section-title h2 {
+  font-family: 'bebas kai';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 64px;
+  color: #fff;
+}
+
+#contact-area .section-title h3 {
+  font-size: 16px;
+  line-height: 0;
+  color: #fff;
+}
+
+#contact-area .section-title .boder {
+  padding: 0 3em 20px;
+  margin: 20px auto 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-image: repeating-linear-gradient(-45deg, #fff 0px, #fff 2px, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%);
+  background-size: 8px 8px;
+  background-repeat: repeat-x;
+  background-position: center bottom;
+}
+
+#contact-area .contact-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 120px;
+  padding: 0 5%;
+}
+
+#contact-area .contact-btn a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30px;
+  width: 750px;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'bebas kai';
+  font-weight: 700;
+  text-decoration: none;
+  background-color: 000;
+  border: 2px solid;
+  border-color: #fff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#contact-area .contact-btn a:hover {
+  color: #6B584C;
+  opacity: 0.7;
+}
+
+#contact-area .contact-btn .line {
+  padding: 3% 10%;
+}
+
+/*------------------------------------------
+フッター
+-------------------------------------------*/
+#footer-area {
+  background-color: #000;
+}
+
+#footer-area .followus {
+  color: #6B584C;
+  text-align: center;
+  padding-top: 60px;
+}
+
+#footer-area .footer-sns-area ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+#footer-area .footer-sns-area ul li {
+  margin: 0 10px;
+}
+
+#footer-area .footer-sns-area ul li a:hover {
+  color: #fff;
+  opacity: 0.7;
+}
+
+#footer-area .footer-sns-area ul li img {
+  width: 25px;
+}
+
+#footer-area .footer-nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  margin-top: 60px;
+}
+
+#footer-area .footer-nav ul li {
+  padding: 0 20px;
+  border-left: 1px solid #6B584C;
+}
+
+#footer-area .footer-nav ul li:last-child {
+  border-right: 1px solid #6B584C;
+}
+
+#footer-area .footer-nav ul li a {
+  color: #fff;
+}
+
+#footer-area .footer-nav ul li a:hover {
+  color: #6B584C;
+  opacity: 0.7;
+}
+
+#footer-area .footer-conpany-area {
+  color: #fff;
+  font-size: 20px;
+  margin-top: 60px;
+  padding-left: 5%;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+#footer-area .footer-conpany-text {
+  color: #fff;
+  margin-top: 20px;
+  padding-left: 5%;
+}
+
+#footer-area .footer-conpany-text p {
+  margin-top: 10px;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+#footer-area .copyright {
+  margin-top: 60px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: #6B584C;
+  font-size: 10px;
+}
+
+#footer-area .footer-design-area {
+  margin-top: 60px;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-family: "Hiragino Kaku Gothic ProN";
+  color: #fff;
+}
+
+#footer-area .footer-design-area p {
+  font-size: 0.8rem;
+  margin-top: 10px;
+}
+
+/*-------------------------------------------
+ページTOPに戻る 
+-------------------------------------------*/
+.pagetop {
+  display: none;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  padding-right: 5%;
+}
+
+.pagetop a {
+  display: block;
+  font-size: 0;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  background: #02009D;
+  line-height: 50px;
+}
+
+.pagetop a:hover {
+  color: #fff;
+  opacity: 0.7;
+}
+
+.pagetop a i {
+  font-size: 20px;
+  color: #fff;
+  line-height: 50px;
+}
+
+/*-------------------------------------------
+会社案内　「コメントエリア」
+-------------------------------------------*/
+#aboutus-coment-area {
+  text-align: center;
+  padding: 0 5% 120px;
+  border-bottom: 1px #000 solid;
+}
+
+#aboutus-coment-area h2 {
+  color: #02009D;
+}
+
+#aboutus-coment-area p {
+  margin-top: 30px;
+}
+
+#aboutus-coment-area .coment-top {
+  margin-top: 60px;
+}
+
+/*-------------------------------------------
+会社案内　「会社情報」
+-------------------------------------------*/
+#company-info {
+  padding: 120px 10%;
+}
+
+#company-info .section-title {
+  text-align: center;
+}
+
+#company-info .section-title h2 {
+  font-family: 'bebas kai';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 64px;
+  color: #02009D;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+
+#company-info .section-title h3 {
+  font-size: 16px;
+  line-height: 0;
+}
+
+#company-info .section-title .boder {
+  margin-top: 30px;
+  padding: 0 4.8em 20px;
+}
+
+#company-info .info-area {
+  margin-top: 120px;
+}
+
+#company-info .info-area dl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#company-info .info-area dt {
+  padding: 20px 0 20px 0;
+  width: 230px;
+  border-bottom: 2px solid #02009D;
+  text-align: center;
+}
+
+#company-info .info-area dd {
+  padding: 20px 0 20px 70px;
+  width: calc(100% - 230px);
+  border-bottom: 2px solid #bbb;
+}
+
+/*-------------------------------------------
+ホームページ制作　「コメントエリア」
+-------------------------------------------*/
+#service-coment-img {
+  background: url(../img/service-sabmaine.WebP);
+  background-size: cover;
+  height: 505px;
+}
+
+#service-coment-img .service-coment01 {
+  text-align: left;
+  padding: 10px 1% 50px 5%;
+  width: 55%;
+  background-color: #fff;
+}
+
+#service-coment-img .service-coment01 h2 {
+  color: #02009D;
+}
+
+#service-coment-img .service-coment01 p {
+  margin-top: 30px;
+}
+
+/*-------------------------------------------
+ホームページ制作　「問題解決エリア」
+-------------------------------------------*/
+#service-coment-img02 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 150px 0;
+}
+
+#service-coment-img02 .service-left {
+  width: 50%;
+  padding: 0 5%;
+}
+
+#service-coment-img02 .service-right {
+  text-align: left;
+  width: 50%;
+  background-color: #fff;
+}
+
+#service-coment-img02 .service-right h2 {
+  color: #02009D;
+}
+
+#service-coment-img02 .service-right p {
+  margin-top: 30px;
+}
+
+#service-coment-img02 .service-right .coment-top {
+  margin-top: 60px;
+}
+
+#service-coment-img02 img {
+  height: 300px;
+}
+
+/*-------------------------------------------
+ホームページ制作　「FLOWエリア」
+-------------------------------------------*/
+#service-flow {
+  padding: 50px 0 150px;
+  background-color: #F1F1F1;
+}
+
+#service-flow .section-title {
+  text-align: center;
+}
+
+#service-flow .section-title h2 {
+  font-family: 'bebas kai';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 64px;
+  color: #02009D;
+}
+
+#service-flow .section-title h3 {
+  font-size: 16px;
+  line-height: 0;
+  margin-top: 10px;
+}
+
+#service-flow .flow-box-area {
+  margin-top: 100px;
+}
+
+#service-flow .flow-box-area .flow-box {
+  background-color: #02009D;
+  margin: 0px 5% 0;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 0;
+}
+
+#service-flow .flow-box-area .flow-box .txt {
+  text-align: center;
+  width: 20%;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+}
+
+#service-flow .flow-box-area .flow-box .txt .icon img {
+  width: 100px;
+}
+
+#service-flow .flow-box-area .flow-box .flow-txt {
+  text-align: left;
+  width: 50%;
+  padding: 0 20px;
+}
+
+#service-flow .flow-box-area .flow-box .num {
+  font-size: 40px;
+  width: 30%;
+  text-align: center;
+}
+
+/*縦のライン*/
+.v_line_fix {
+  margin-left: 18.5%;
+  width: 3px;
+  height: 80px;
+  background-color: #02009D;
+}
+
+/*-------------------------------------------
+お問い合わせ
+-------------------------------------------*/
+#contact-form-area .section-title {
+  text-align: center;
+  margin-top: 200px;
+}
+
+#contact-form-area .section-title .boder {
+  margin-top: 20px;
+  font-size: 30px;
+  line-height: 0;
+  color: #02009D;
+  padding: 1em 0.5em 1.5em;
+  margin: 0 auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-image: repeating-linear-gradient(-45deg, #02009D 0px, #02009D 2px, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%);
+  background-size: 8px 8px;
+  background-repeat: repeat-x;
+  background-position: center bottom;
+}
+
+#contact-form-area .contact-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 120px;
+}
+
+#contact-form-area .contact-btn button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 10px;
+  width: 600px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  background-color: #000;
+  border: 2px solid;
+}
+
+#contact-form-area .contact-btn button:hover {
+  color: #6B584C;
+  opacity: 0.7;
+}
+
+/*デザインcss↓*/
+.box_con06 {
+  padding: 0 5%;
+  margin: 100px  auto;
+}
+
+.box_con06 form {
+  width: 100%;
+}
+
+.box_con06 form ul {
+  width: 100%;
+}
+
+.box_con06 form ul li {
+  position: relative;
+  overflow: hidden;
+  margin: .5em 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.ie8 .box_con06 form ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.box_con06 form ul li .title {
+  position: relative;
+  width: 30%;
+  font-weight: normal;
+  padding: 1em;
+  position: relative;
+  color: #1c2e53;
+}
+
+.ie8 .box_con06 form ul li .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 3px solid #1c2e53;
+}
+
+.box_con06 form ul li .title em {
+  position: relative;
+  z-index: 1;
+}
+
+.box_con06 form ul li .title span {
+  background: #F45092;
+  padding: 5px 10px;
+  color: #fff;
+  margin-left: .5em;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.box_con06 form ul li .box_det {
+  width: 70%;
+  padding: 1em;
+  border-bottom: 1px solid #d7d7d7;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.error_msg {
+  color: #F45092;
+}
+
+.box_con06 form ul li .title .none {
+  color: #fff;
+  background-color: #fff;
+}
+
+.box_con06 form ul li .box_br {
+  display: block;
+}
+
+.box_con06 form ul li select, .box_con06 form ul li textarea, .box_con06 form ul li .wide {
+  width: 100%;
+  height: 3em;
+  padding: .5em;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #02009D;
+  background-color: #E8E8E8;
+}
+
+.box_con06 form ul li textarea {
+  height: 10em;
+}
+
+input[type=checkbox] {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  margin: 0 10px 0 10px;
+}
+
+.btn {
+  text-align: center;
+}
+
+.btn input {
+  display: inline-block;
+  background: #eee;
+  padding: .5em 4em;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.btn input:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  opacity: 0.7;
+}
+
+.personal-information {
+  background-color: #E8E8E8;
+  margin: 60px 0 0;
+  text-align: center;
+}
+
+.personal-information .personal-title {
+  font-size: 32px;
+  font-weight: bold;
+  padding-top: 60px;
+}
+
+.personal-information .personal-bottom {
+  padding: 30px  0 60px;
+}
+
+.confirm-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 80px;
+}
+
+.confirm-btn button {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 0 10px 5px;
+  width: 100px;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  background-color: #02009D;
+  margin-left: 10px;
+}
+
+.confirm-btn button:hover {
+  color: #6B584C;
+  opacity: 0.7;
+}
+
+.confirm-btn a {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 0 10px 35px;
+  width: 100px;
+  color: #000;
+  font-size: 16px;
+  text-decoration: none;
+  background-color: #E8E8E8;
+  margin-right: 10px;
+}
+
+.confirm-btn a:hover {
+  color: #6B584C;
+  opacity: 0.7;
+}
+
+.container {
+  text-align: center;
+  margin-top: 120px;
+  padding: 0 5%;
+}
+
+.container .thanks_msg {
+  margin-top: 60px;
+}
+
+.container .big-thanks {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.privacy-area {
+  padding: 80px 5% 180px;
+  text-align: left;
+}
+
+.privacy-area h2 {
+  color: #02009D;
+  margin-top: 30px;
+}
+
+.privacy-area p {
+  margin-top: 20px;
+}
+
+/*-------------------------------------------
+新着情報
+-------------------------------------------*/
+.information-area-sns {
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 5% 100px;
+}
+
+.information-area-sns .information-area-left {
+  width: 50%;
+  text-align: left;
+  padding-right: 2%;
+  max-height: 1500px;
+}
+
+.information-area-sns .information-area-right {
+  width: 50%;
+  text-align: left;
+  padding-left: 2%;
+  max-height: 1500px;
+}
+
+.information-area-sns p {
+  font-family: 'bebas kai';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 48px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.information-area-sns .commitment-title {
+  font-family: 'bebas kai';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 64px;
+  color: #02009D;
+}
+
+#information-area {
+  background-color: #F1F1F1;
+}
+
+.commitment-title {
+  text-align: center;
+  font-family: 'bebas kai';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 64px;
+  color: #02009D;
+  padding-top: 100px;
+}
+
+@media screen and (min-width: 1050px) {
+  #header {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1050px) and (min-width: 768px) {
+  #header {
+    display: none;
+  }
+  .top-header .top-header-title {
+    font-size: 12px;
+  }
+  .header-second li a {
+    font-size: 13px;
+  }
+  #mainvisual-area .mainvisual-left h1 {
+    font-size: 40px;
+  }
+  #mainvisual-about-area .mainvisual-left h1 {
+    font-size: 70px;
+  }
+  #mainvisual-service-area .mainvisual-left h1 {
+    font-size: 70px;
+  }
+  #mainvisual-contact-area .mainvisual-left h1 {
+    font-size: 70px;
+  }
+  #contact-area .contact-btn a {
+    width: 600px;
+  }
+  #service-coment-img .service-coment01 {
+    width: 70%;
+  }
+  #service-coment-img .service-coment01 br {
+    display: none;
+  }
+  .con_pri .box_pri {
+    padding: 4%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .top-header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100%;
+  }
+  .top-header .top-header-title {
+    text-align: center;
+  }
+  .top-header .header-sns-area {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 30px;
+  }
+  .top-header .header-sns-area li {
+    margin-right: 15px;
+  }
+  .header-second {
+    display: none;
+  }
+  #header {
+    height: 120px;
+    background-color: #fff;
+    padding: 0;
+    position: relative;
+    z-index: 30;
+  }
+  #header .site-title {
+    width: 200px;
+    padding-top: 20px;
+  }
+  #navi {
+    position: relative;
+    top: -1200px;
+    width: 100%;
+    color: #000;
+    background-color: rgba(245, 245, 245, 0.9);
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    z-index: 20;
+    opacity: 0;
+  }
+  #navi .nav-menu {
+    margin-bottom: 60px;
+    border-bottom: solid 1px #000;
+  }
+  #navi .nav-menu li {
+    margin: 0;
+    padding: 20px;
+    font-weight: bold;
+    border-top: solid 1px #000;
+    text-align: center;
+  }
+  #navi .nav-menu li a {
+    color: #000;
+    font-size: 16px;
+  }
+  #navi .nav-menu li a:hover {
+    color: #02009D;
+    opacity: 0.7;
+  }
+  #navi .nav-menu li img {
+    width: 25px;
+  }
+  .open .toggle_btn span {
+    background-color: #02009D;
+  }
+  .open .toggle_btn span:nth-child(1) {
+    -webkit-transform: translateY(10px) rotate(-315deg);
+    transform: translateY(10px) rotate(-315deg);
+  }
+  .open .toggle_btn span:nth-child(2) {
+    opacity: 0;
+  }
+  .open .toggle_btn span:nth-child(3) {
+    -webkit-transform: translateY(-10px) rotate(315deg);
+    transform: translateY(-10px) rotate(315deg);
+  }
+  .open #navi {
+    top: 0;
+    opacity: 1;
+  }
+  .toggle_btn {
+    display: block;
+    position: absolute;
+    top: 40px;
+    right: 5%;
+    width: 30px;
+    height: 30px;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    cursor: pointer;
+    z-index: 20;
+  }
+  .toggle_btn span {
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 30px;
+    height: 2px;
+    background-color: #02009D;
+    border-radius: 4px;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+  }
+  .toggle_btn span:nth-child(1) {
+    top: 4px;
+  }
+  .toggle_btn span:nth-child(2) {
+    top: 14px;
+  }
+  .toggle_btn span:nth-child(3) {
+    bottom: 4px;
+  }
+  #mask {
+    display: none;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .open #mask {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(245, 245, 245, 0.9);
+    opacity: .8;
+    z-index: 10;
+    cursor: pointer;
+  }
+  #mainvisual-area {
+    height: 100%;
+  }
+  #mainvisual-area .mainvisual-left {
+    padding-right: 2px;
+    padding-left: 1%;
+    width: 40%;
+  }
+  #mainvisual-area .mainvisual-left h1 {
+    font-size: 32px;
+  }
+  #mainvisual-area .mainvisual-left p {
+    margin-top: 50px;
+    font-weight: normal;
+    font-size: 16px;
+  }
+  #mainvisual-area .mainvisual-left p br {
+    display: none;
+  }
+  #mainvisual-area .mainvisual-right {
+    width: 60%;
+    height: 300px;
+    background-size: cover;
+  }
+  /*メインビジュアル（会社案内）*/
+  #mainvisual-about-area {
+    height: 100%;
+  }
+  #mainvisual-about-area .mainvisual-left {
+    padding-top: 70px;
+    width: 40%;
+    padding-left: 2%;
+    margin-right: 2%;
+  }
+  #mainvisual-about-area .mainvisual-left h1 {
+    font-size: 50px;
+  }
+  #mainvisual-about-area .mainvisual-right {
+    width: 60%;
+    height: 300px;
+    background-size: cover;
+  }
+  /*メインビジュアル（ホームページ制作）*/
+  #mainvisual-service-area {
+    height: 100%;
+  }
+  #mainvisual-service-area .mainvisual-left {
+    padding-left: 2%;
+    margin-right: 2%;
+    padding-top: 80px;
+  }
+  #mainvisual-service-area .mainvisual-left h1 {
+    font-size: 50px;
+  }
+  #mainvisual-service-area .mainvisual-right {
+    width: 60%;
+    height: 250px;
+    background-size: cover;
+  }
+  /*メインビジュアル（お問合わせ）*/
+  #mainvisual-contact-area {
+    height: 100%;
+  }
+  #mainvisual-contact-area .mainvisual-left {
+    padding-left: 2%;
+    margin-right: 2%;
+    padding-top: 140px;
+  }
+  #mainvisual-contact-area .mainvisual-left h1 {
+    font-size: 50px;
+  }
+  #mainvisual-contact-area .mainvisual-right {
+    width: 58vw;
+    height: 250px;
+    background-size: cover;
+  }
+  /*メインビジュアル（個人情報）*/
+  #mainvisual-privacy-area {
+    height: 100%;
+  }
+  #mainvisual-privacy-area .mainvisual-left {
+    padding-left: 2%;
+    margin-right: 2%;
+    padding-top: 130px;
+  }
+  #mainvisual-privacy-area .mainvisual-left h1 {
+    font-size: 50px;
+  }
+  #mainvisual-privacy-area .mainvisual-right {
+    width: 58vw;
+    height: 250px;
+    background-size: cover;
+  }
+  #aboutus-area .section-title {
+    top: calc((100vw / 290) * -15);
+  }
+  #aboutus-area .section-title h2 {
+    font-size: 48px;
+  }
+  #aboutus-area .abiutus-box {
+    margin: 0 10%;
+  }
+  #service-area .section-title h2 {
+    font-size: 48px;
+  }
+  #service-area .service-btn a {
+    width: 200px;
+    font-size: 14px;
+  }
+  #service-area .service-img-area .service-item h3 {
+    font-size: 14px;
+  }
+  #service-area .service-img-area .service-item h4 {
+    font-size: 10px;
+    margin-top: 10px;
+  }
+  #service-area .service-img-area02 .service-item h3 {
+    font-size: 16px;
+  }
+  #service-area .service-img-area02 .service-item01 img {
+    width: 80px;
+  }
+  #service-area .service-img-area02 .service-item02 img {
+    width: 80px;
+  }
+  #service-area .service-img-area02 .service-item01 h3 {
+    font-size: 14px;
+  }
+  #service-area .service-img-area02 .service-item02 h3 {
+    font-size: 14px;
+  }
+  .service-coment {
+    margin-top: 100px;
+  }
+  .service-coment .works-area {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .service-coment .works-area .works-area01 {
+    margin-top: 30px;
+    padding: 0 20px;
+  }
+  #contact-area .section-title h2 {
+    font-size: 48px;
+  }
+  #contact-area .contact-btn {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #contact-area .contact-btn .line {
+    padding: 3% 19%;
+    margin-top: 30px;
+  }
+  #contact-area .contact-btn a {
+    width: 400px;
+    font-size: 14px;
+  }
+  #footer-area .footer-conpany-area {
+    text-align: center;
+    padding-left: 0;
+  }
+  #footer-area .footer-conpany-text {
+    text-align: center;
+    padding-left: 0;
+  }
+  /*-------------------------------------------
+会社案内　「コメントエリア」
+-------------------------------------------*/
+  #aboutus-coment-area p {
+    margin-top: 30px;
+  }
+  #aboutus-coment-area .coment-top {
+    margin-top: 60px;
+  }
+  #aboutus-coment-area br {
+    display: none;
+  }
+  #company-info .section-title h2 {
+    font-size: 48px;
+  }
+  /*-------------------------------------------
+会社案内　「会社情報エリア」
+-------------------------------------------*/
+  #company-info {
+    padding: 120px 5%;
+  }
+  #company-info .info-area dt {
+    width: 150px;
+    padding: 20px 0 20px 20px;
+  }
+  #company-info .info-area dd {
+    padding: 20px 0 20px 20px;
+    width: calc(100% - 150px);
+  }
+  #company-info .info-area br {
+    display: block;
+  }
+  /*-------------------------------------------
+ホームページ制作　「コメントエリア」
+-------------------------------------------*/
+  #service-coment-img {
+    padding: 30px 0;
+    height: 100%;
+  }
+  #service-coment-img .service-coment01 {
+    margin-left: 10%;
+    width: 80%;
+    padding: 30px 2% 50px 2%;
+  }
+  #service-coment-img .service-coment01 br {
+    display: none;
+  }
+  #service-coment-img .service-coment01 h2 {
+    text-align: center;
+  }
+  /*-------------------------------------------
+ホームページ制作　「問題解決エリア」
+-------------------------------------------*/
+  #service-coment-img02 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    margin: 100px 0;
+  }
+  #service-coment-img02 .service-left {
+    width: 100%;
+    margin-top: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #service-coment-img02 .service-left img {
+    width: 450px;
+  }
+  #service-coment-img02 .service-right {
+    width: 100%;
+  }
+  #service-coment-img02 .service-right h2 {
+    color: #02009D;
+    text-align: center;
+  }
+  #service-coment-img02 .service-right p {
+    margin-top: 60px;
+    padding: 0 4%;
+  }
+  #service-coment-img02 .service-right br {
+    display: none;
+  }
+  /*-------------------------------------------
+ホームページ制作　「FLOWエリア」
+-------------------------------------------*/
+  #service-flow .section-title h2 {
+    font-size: 50px;
+    padding-bottom: 10px;
+  }
+  #service-flow .section-title .boder {
+    padding: 0 1.5em 20px;
+  }
+  #service-flow .flow-box-area {
+    margin-top: 100px;
+  }
+  #service-flow .flow-box-area .flow-box .txt {
+    width: 25%;
+  }
+  #service-flow .flow-box-area .flow-box .txt .icon img {
+    width: 80px;
+  }
+  #service-flow .flow-box-area .flow-box .flow-txt {
+    width: 60%;
+    padding: 0 20px;
+  }
+  #service-flow .flow-box-area .flow-box .num {
+    font-size: 32px;
+    width: 15%;
+  }
+  /*縦のライン*/
+  .v_line_fix {
+    margin-left: 11.8%;
+  }
+  #contact-form-area .section-title {
+    margin-top: 150px;
+  }
+  #footer-area .footer-nav ul li {
+    font-size: 16px;
+    padding: 0 10px 0 10px;
+    border-left: 1px solid #6B584C;
+  }
+  .footer-conpany-area h2 {
+    font-size: 24px;
+  }
+  #footer-area .footer-conpany-text p {
+    margin-top: 0;
+    font-size: 12px;
+  }
+  /*-------------------------------------------
+お問い合わせ
+-------------------------------------------*/
+  .box_con06 {
+    width: 95%;
+  }
+  .box_con06 form ul li .title {
+    text-align: left;
+    width: 100%;
+    display: block;
+    padding: .8em .2em;
+    color: #fff;
+    background: #02009D;
+  }
+  .box_con06 form ul li .box_det {
+    padding: 1.5em .5em;
+    display: block;
+    width: 100%;
+  }
+  .box_con06 form ul li .title .none {
+    color: #02009D;
+    background-color: #02009D;
+  }
+  .personal-information .personal-title {
+    font-size: 24px;
+    padding-top: 30px;
+  }
+  .personal-information .personal-bottom br {
+    display: none;
+  }
+  .personal-information .personal-bottom {
+    padding: 10px 5% 30px;
+  }
+  #contact-form-area .contact-btn button {
+    width: 400px;
+    font-size: 16px;
+  }
+  #contact-form-area .contact-btn {
+    margin-top: 30px;
+  }
+  input[type=checkbox] {
+    -webkit-transform: scale(2);
+            transform: scale(2);
+    margin: 20px 10px 20px 10px;
+  }
+  .privacy-area {
+    padding: 0 5% 180px;
+    text-align: left;
+  }
+  .privacy-area h2 {
+    color: #02009D;
+    margin-top: 30px;
+    font-size: 18px;
+  }
+  .privacy-area p {
+    margin-top: 20px;
+  }
+  /*-------------------------------------------
+新着情報
+-------------------------------------------*/
+  .information-area-sns {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0 5% 100px;
+    margin-top: 50px;
+  }
+  .information-area-sns .information-area-left {
+    width: 100%;
+    padding-right: 0%;
+    padding: 0 5%;
+  }
+  .information-area-sns .information-area-right {
+    width: 100%;
+    margin-top: 60px;
+    padding-left: 0%;
+    padding: 0 5%;
+  }
+  .information-area-sns p {
+    font-size: 32px;
+  }
+  .commitment-title {
+    font-style: normal;
+    font-size: 48px;
+    padding-top: 60px;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .box_con06 form ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .box_con06 form ul li .title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-bottom: 1px solid #02009D;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  #header .site-title {
+    width: 150px;
+    padding-top: 30px;
+  }
+  .top-header {
+    padding: 0;
+  }
+  #mainvisual-area {
+    height: 100%;
+  }
+  #mainvisual-area .mainvisual-left {
+    padding-right: 2px;
+    padding-left: 1%;
+    width: 40%;
+  }
+  #mainvisual-area .mainvisual-left h1 {
+    font-size: 20px;
+  }
+  #mainvisual-area .mainvisual-left p {
+    margin-top: 20px;
+    font-weight: normal;
+    font-size: 10px;
+  }
+  #mainvisual-area .mainvisual-left p br {
+    display: none;
+  }
+  #mainvisual-area .mainvisual-right {
+    width: 60%;
+    height: 190px;
+    background-size: cover;
+  }
+  /*メインビジュアル（会社案内）*/
+  #mainvisual-about-area {
+    height: 100%;
+  }
+  #mainvisual-about-area .mainvisual-left {
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 50px;
+    width: 40%;
+  }
+  #mainvisual-about-area .mainvisual-left h1 {
+    font-size: 28px;
+  }
+  #mainvisual-about-area .mainvisual-right {
+    width: 60%;
+    height: 190px;
+    background-size: cover;
+  }
+  /*メインビジュアル（ホームページ制作）*/
+  #mainvisual-service-area .mainvisual-left {
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 70px;
+  }
+  #mainvisual-service-area .mainvisual-left h1 {
+    font-size: 28px;
+  }
+  #mainvisual-service-area .mainvisual-right {
+    width: 60%;
+    height: 190px;
+  }
+  /*メインビジュアル（個人情報）*/
+  #mainvisual-privacy-area .mainvisual-left {
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 120px;
+    width: 40%;
+  }
+  #mainvisual-privacy-area .mainvisual-left h1 {
+    font-size: 28px;
+  }
+  #mainvisual-privacy-area .mainvisual-right {
+    width: 60%;
+    height: 190px;
+  }
+  /*メインビジュアル（お問合わせ）*/
+  #mainvisual-contact-area .mainvisual-left {
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 130px;
+    width: 40%;
+  }
+  #mainvisual-contact-area .mainvisual-left h1 {
+    font-size: 28px;
+  }
+  #mainvisual-contact-area .mainvisual-right {
+    width: 60%;
+    height: 190px;
+  }
+  #aboutus-area .section-title {
+    top: calc((100vw / 290) * -15);
+  }
+  #aboutus-area .section-title h2 {
+    font-size: 28px;
+  }
+  #aboutus-area .section-title h3 {
+    margin-top: 20px;
+  }
+  .boder {
+    padding: 0 1.2em 20px;
+  }
+  #service-area .section-title h2 {
+    font-size: 28px;
+  }
+  .top-header .top-header-title {
+    font-size: 10px;
+  }
+  #footer-area .footer-nav ul li {
+    font-size: 14px;
+    padding: 0 5px 0 5px;
+    border-left: 1px solid #6B584C;
+  }
+  #contact-area .section-title h2 {
+    font-size: 28px;
+  }
+  #contact-area .section-title .boder {
+    padding: 0 1em 20px;
+  }
+  #contact-area .section-title h3 {
+    margin-top: 20px;
+  }
+  #contact-area .contact-btn a {
+    width: 350px;
+    font-size: 14px;
+  }
+  #aboutus-coment-area h2 {
+    font-size: 1.25em;
+  }
+  #company-info .section-title h2 {
+    font-size: 28px;
+  }
+  #company-info .section-title .boder {
+    padding: 0 2.5em 20px;
+  }
+  #service-coment-img .service-coment01 h2 {
+    font-size: 1.25em;
+  }
+  #service-coment-img02 .service-right h2 {
+    font-size: 1.25em;
+  }
+  #service-coment-img02 .service-left img {
+    height: 250px;
+  }
+  /*-------------------------------------------
+ホームページ制作　「FLOWエリア」
+-------------------------------------------*/
+  #service-flow .section-title h2 {
+    font-size: 28px;
+  }
+  #service-flow .section-title .boder {
+    padding: 0 1em 20px;
+  }
+  #service-flow .flow-box-area .flow-box {
+    margin: 0;
+  }
+  #service-flow .flow-box-area .flow-box .txt p {
+    font-size: 14px;
+  }
+  #service-flow .flow-box-area .flow-box .flow-txt p {
+    font-size: 14px;
+  }
+  /*縦のライン*/
+  .v_line_fix {
+    margin-left: 7.8%;
+  }
+  /*-------------------------------------------
+会社案内　「会社情報エリア」
+-------------------------------------------*/
+  #company-info .info-area dt {
+    width: 110px;
+    padding: 20px 10px 20px 10px;
+  }
+  #company-info .info-area dd {
+    width: calc(100% - 110px);
+  }
+  #contact-form-area .section-title h2 {
+    font-size: 24px;
+  }
+  #contact-form-area .contact-btn button {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .top-header .top-header-title {
+    font-size: 10px;
+  }
+  #aboutus-area .section-title {
+    top: calc((100vw / 260) * -15);
+  }
+  #aboutus-area .section-title h2 {
+    font-size: 28px;
+  }
+  #service-area .section-title h2 {
+    font-size: 28px;
+  }
+  #footer-area .footer-nav ul li {
+    font-size: 12px;
+    padding: 0 5px 0 5px;
+    border-left: 1px solid #6B584C;
+  }
+  #contact-area .contact-btn a {
+    width: 280px;
+    font-size: 12px;
+  }
+  /*メインビジュアル（会社案内）*/
+  #mainvisual-about-area .mainvisual-left {
+    padding-left: 5%;
+    padding-right: 1%;
+    padding-top: 40px;
+  }
+  #mainvisual-about-area .mainvisual-right {
+    height: 160px;
+  }
+  #service-coment-img .service-coment01 h2 {
+    font-size: 1.2em;
+  }
+  #service-coment-img02 .service-left img {
+    height: 220px;
+  }
+  /*-------------------------------------------
+ホームページ制作　「FLOWエリア」
+-------------------------------------------*/
+  #company-info .info-area dt {
+    width: 90px;
+    padding: 20px 0 20px 0;
+  }
+  #company-info .info-area dd {
+    padding: 20px 0 20px 10px;
+    width: calc(100% - 90px);
+  }
+  #contact-form-area .contact-btn button {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #mainvisual-area {
+    height: 100%;
+  }
+  #mainvisual-area .mainvisual-left {
+    padding-right: 2px;
+    padding-left: 1%;
+    width: 40%;
+  }
+  #mainvisual-area .mainvisual-left h1 {
+    font-size: 16px;
+  }
+  #mainvisual-area .mainvisual-left p {
+    margin-top: 20px;
+    font-weight: normal;
+    font-size: 10px;
+  }
+  #mainvisual-area .mainvisual-left p br {
+    display: none;
+  }
+  #mainvisual-area .mainvisual-right {
+    width: 60%;
+    height: 190px;
+    background-size: cover;
+  }
+  /*メインビジュアル（会社案内）*/
+  #mainvisual-about-area .mainvisual-left {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  #mainvisual-about-area .mainvisual-left h1 {
+    font-size: 28px;
+  }
+  #mainvisual-about-area .mainvisual-right {
+    height: 150px;
+  }
+  /*メインビジュアル（ホームページ制作）*/
+  #mainvisual-service-area .mainvisual-left {
+    padding-top: 60px;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  #mainvisual-service-area .mainvisual-left h1 {
+    font-size: 28px;
+  }
+  #mainvisual-service-area .mainvisual-right {
+    height: 150px;
+  }
+  /*メインビジュアル（個人情報）*/
+  #mainvisual-privacy-area .mainvisual-left {
+    padding-top: 100px;
+    width: 40%;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  #mainvisual-privacy-area .mainvisual-left h1 {
+    font-size: 28px;
+  }
+  #mainvisual-privacy-area .mainvisual-right {
+    width: 60%;
+    height: 150px;
+  }
+  /*メインビジュアル（お問合わせ）*/
+  #mainvisual-contact-area .mainvisual-left {
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 110px;
+    width: 40%;
+  }
+  #mainvisual-contact-area .mainvisual-left h1 {
+    font-size: 28px;
+  }
+  #mainvisual-contact-area .mainvisual-right {
+    width: 60%;
+    height: 150px;
+  }
+  #aboutus-area .section-title {
+    top: calc((100vw / 200) * -15);
+  }
+  #aboutus-area .section-title h2 {
+    font-size: 28px;
+  }
+  #service-area .section-title h2 {
+    font-size: 28px;
+  }
+  .top-header .top-header-title {
+    font-size: 10px;
+    padding: 0 1%;
+  }
+  #footer-area .footer-nav ul li {
+    font-size: 10px;
+    padding: 0 5px 0 5px;
+    border-left: 1px solid #6B584C;
+  }
+  #aboutus-coment-area h2 {
+    font-size: 1.1em;
+  }
+  #service-coment-img .service-coment01 h2 {
+    font-size: 1em;
+  }
+  #service-coment-img02 .service-left img {
+    height: 180px;
+  }
+  #contact-form-area .section-title h2 {
+    font-size: 24px;
+  }
+  #company-info .info-area dt {
+    width: 70px;
+    padding: 20px 0 20px 0;
+    font-size: 14px;
+  }
+  #company-info .info-area dd {
+    padding: 20px 0 20px 10px;
+    width: calc(100% - 70px);
+    font-size: 14px;
+  }
+  #contact-form-area .contact-btn button {
+    width: 180px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
